@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#loginSection, #quizSection, #resultSection {
+  width: 80%;
+  max-width: 400px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#questionBackground {
+  background: linear-gradient(135deg, #a2d9ff, #80ced6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#options {
+  margin-top: 10px;
+}
+
+.option {
+  display: block;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.option:hover {
+  background-color: #ddd;
+}
+
+
+/* Existing style ...*/
+.option.selected{
+	background-color:#4caf50;
+	/* change background-color for selected*/
+	color:white;
+	
+}
+
+
+/* Existing styles ... */
+
+/* Result Section Styles */
+#resultSection {
+  background: linear-gradient(135deg, #f0f8ff, #e0f7fa);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#resultSection h2 {
+  font-size: 24px;
+  color: #00796b;
+}
+
+#resultSection p {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Add a subtle animation effect for the result section */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Style for the score text */
+#result {
+  font-size: 20px;
+  font-weight: bold;
+  color: #388e3c;
+  margin-top: 15px;
+}
+
+/* Style for username text in result */
+#resultSection .username {
+  color: #00796b;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#resultSection img {
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+
+

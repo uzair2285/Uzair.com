@@ -1,0 +1,311 @@
+*{ padding:0px;
+   margin:0px;}
+
+
+
+body{
+	background-color:f4f4f4;
+	gradient:1000;
+}
+
+.uzair{
+	background:pink;
+	
+  width:50%;
+  height:100px;
+  color:red; 
+  border-radius:200px 0px 0px 0px;
+  text-shadow:100px green; 
+  position:center;
+  font-size:30px;
+  align-self:center; 
+  img{ width:180px; height:163px;}
+  a{ align-content:center;}
+}
+p{
+	color:blue;
+	font-size:60px;
+}
+.uzair:hover{ 
+        background-color:00#;
+        transform:translatey(-10px);
+
+}
+table{
+	
+	
+}
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact form input {
+  height: 40px;
+}
+
+.contact form textarea {
+  height: 120px;
+}
+
+.contact form button {
+  background-color: #ffd700;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact form button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #ffd700;
+}
+/* Footer */
+footer {
+  background-color: #222;
+  padding: 20px 0;
+  text-align: center;
+  color:white; 
+}
+
+footer p {
+  font-size: 0.9rem; 
+  color:white;
+}
+ /* Navbar Styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1.logo {
+  font-size: 30px;
+  color:#f4f4f4;
+  margin-top:-90px;
+}
+
+.navbar nav ul {
+  display: flex;
+}
+
+.navbar nav ul li {
+  margin-left: 20px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar nav ul li a:hover {
+  color: #ffd700;
+} 
+
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+} 
+/* Hero Section */
+.hero {
+  background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color:red;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: #ffd700;
+  color: #333;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #ffd700;
+}
+/* Services Section */
+.services {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.service-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #666;
+}
+.none h2 { 
+  font-size:4rem;
+  background-color:#666;
+  margin-bottom:10px;
+}
+.yes {
+	text-align:center;
+	background-color:#0097A7;
+	color:white;
+	
+}
+.slow {
+	background-color:#da70d6;
+	color:#032b44;
+}
+.zero{  
+      position:center;
+      background-color:#556B2F;
+      border-radius:5px;
+	  color:white;
+}
+.logo1 img{ 
+      width:80px;
+	  height:80px;
+      margin-left:40px; 
+	 border-radius:40px; 
+	 background-color:#fff;
+	 transform:scale(1.8);
+	 margin-top:20px;
+	 
+	 
+	 
+}
+
+
+.quize{
+	text-align:center;
+	margin-bottom:40px;
+	font-size:2.9rem;
+	box-sizing:10px;
+	background-color:#999;
+	padding:20px;
+	margin-left:650px;
+	margin-right:650px;
+	border-radius:0px 300px 0px 300px;
+}
+.quize h5{
+	color:blue;
+	font-family:normal;
+	
+}
+.marq{
+	background-color:#444;
+	color:#f4f4f4;
+	margin-left:620px;
+	margin-right:620px;
+	padding:10px;
+	font-family:normal;
+}
+
+.marq:hover{
+	
+	transform:translatey(-10px);
+}
+.marq p{
+	font-size:1.2rem;
+	color:#f4f4f4;
+	font-weight:600;
+}

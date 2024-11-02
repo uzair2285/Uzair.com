@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  
+<div id="loginSection">
+  <h2>Welcome to the Quiz</h2>
+  <input type="text" id="username" placeholder="Enter your name" required>
+  <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+
+
+ <div id="quizSection" style="display:none;">
+  <div id="questionContainer">
+    <div id="questionBackground">
+      <h3 id="question"></h3>
+      <div id="options"></div>
+    </div>
+    <button id="nextButton" onclick="nextQuestion()">Next</button>
+    <button id="submitButton" onclick="displayResult()" style="display: none;">Submit</button>
+  </div>
+</div>
+
+  
+
+<div id="resultSection" style="display:none;">
+  <h2>Result Card</h2>
+  <img id="resultImage" src="" alt="Profile Image" style="display: none; width: 100px; border-radius: 50%;">
+  <p id="result"></p>
+  <button onclick="downloadResult()">Download Result</button>
+</div>
+
+
+  <script src="script.js"></script>
+  
+  
+  
+  
+  
+  
+</body>
+</html>
